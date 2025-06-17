@@ -1,7 +1,7 @@
 body {
   font-family: "Work Sans", sans-serif;
-  background: url("/assets/images/background-pattern-desktop.svg") no-repeat top
-      center,
+  background: url("../assets/images/background-pattern-desktop.svg") no-repeat
+      top center,
     hsl(275, 100%, 97%);
   background-size: auto;
   min-height: 100vh;
@@ -35,7 +35,7 @@ body {
 
 .faq-container h1::before {
   content: "";
-  background: url("/assets/images/icon-star.svg");
+  background: url("../assets/images/icon-star.svg");
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -74,7 +74,7 @@ body {
 
 .faq-questions dt::after {
   content: "";
-  background: url("/assets/images/icon-plus.svg");
+  background: url("../assets/images/icon-plus.svg");
   width: 30px;
   height: 30px;
   display: inline-block;
@@ -84,5 +84,5 @@ body {
 }
 
 .faq-questions dt.ativo::after {
-  background: url("/assets/images/icon-minus.svg");
+  background: url("../assets/images/icon-minus.svg");
 }
